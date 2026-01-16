@@ -1,3 +1,8 @@
+body{
+    font-family: "Roboto Mono", Arial, Helvetica, sans-serif;
+    color: white;
+}
+
 header{
     min-height: 80vh;
 
@@ -8,12 +13,10 @@ header{
 
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
 }
 
 header nav{
     display: flex;
-    align-items: flex-start;
 }
 
 .headerIcons{
@@ -27,11 +30,190 @@ main{
 .divisionBorder{
     width: 100%;
     height: 6px;
-    border-bottom: solid 3px #FF70FF;
+
     background-color: white;
+    border-bottom: solid 3px #FF70FF;
 }
 
 .playStoreButton{
     margin-top: 50px;
     text-align: center;
+}
+
+section{
+    margin: 50px 50px 50px 50px;
+}
+
+h2{
+    margin: auto;
+    margin-top: 150px;
+    max-width: 60%;
+    text-align: center;
+
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+.cardHowToPlay{
+    display: flex;
+    gap: 200px;
+    margin: 200px 200px 200px 200px;
+
+    font-size:xx-large;
+}
+
+#reverseCard{
+    flex-direction: row-reverse;
+}
+
+.containerCardsSpecialCube{
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 150px;
+}
+
+.cardSpecialCube{
+    max-width: 35%;
+    flex: 1;
+    text-align: center;
+
+    padding: 20px;
+
+    background-color: rgb(56, 180, 164);
+    border-bottom: solid 40px rgb(34, 150, 134);
+    border-right: solid 40px rgb(26, 133, 118);
+}
+
+.cardSpecialCube h3{
+    margin-bottom: 50px;
+
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.cardSpecialCube img{
+    max-block-size: 250px;
+}
+
+.cardSpecialCube p{
+    margin: auto;
+    margin-top: 50px;
+    max-width: 50%;
+}
+
+.divYoutubeVideo{
+    margin-top: 250px;
+    text-align: center;
+}
+
+.divYoutubeVideo iframe{
+    width: 80%;
+    border-radius: 20px;
+}
+
+article{
+    margin-top: 200px;
+}
+
+.divArticleSoundtrack{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: auto;
+    max-width: 65%;
+    padding: 50px;
+
+    background-color: #ff70ff62;
+    border-left: solid white 10px;
+}
+
+.divArticleSoundtrack img{
+    max-block-size: 300px;
+}
+
+.divTextsSoundtrack{
+    max-width: 50%;
+}
+
+.divTextsSoundtrack h3{
+    font-size: 2em;
+}
+
+.divTextsSoundtrack p{
+    max-width: 70%;
+}
+
+.divTextsSoundtrack button{
+    margin-top: 20px;
+    
+    width: 300px;
+    height: 75px;
+
+    background-color: white;
+    border: none;
+}
+
+.divTextsSoundtrack button > a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 75px;
+    text-align: center;
+
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.sectionMathCubesDetails{
+    margin: 0;
+}
+
+.divMathCubesDetails{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.mathCubesDetails{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.mathCubesDetails img{
+    border-radius: 36px;
+}
+
+.mathCubesDetails p{
+    text-align: left;
+    font-size: x-large;
+    line-height: 1.6em;
+}
+
+.unityLogo{
+    margin-top: 100px;
+}
+
+.divFinalMargin{
+    height: 150px;
+}
+
+footer{
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #6E0387;
+    text-align: center;
+}
+
+footer p{
+    margin: 0;
 }
