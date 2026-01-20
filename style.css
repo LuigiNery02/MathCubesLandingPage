@@ -439,3 +439,60 @@ footer p{
         height: 97px;
     }
 }
+
+@media (max-width: 530px){
+
+    .cardSpecialCube h3{
+        max-width: 100%;
+        font-size: small;
+    }
+
+    .cardSpecialCube img{
+        max-block-size: 50px;
+    }
+
+    .cardSpecialCube p{
+        max-width: 100%;
+        font-size: 10px;
+    }
+
+    .divArticleSoundtrack{
+        max-width: 90%;
+    }
+
+    .divArticleSoundtrack img{
+        max-block-size: 150px;
+    }
+
+    .divTextsSoundtrack{
+        max-width: 100%;
+    }
+
+    .divTextsSoundtrack h3{
+        font-size: 1em;
+    }
+
+    .divTextsSoundtrack p{
+        max-width: 100%;
+        text-align: left;
+        margin: auto;
+        margin-bottom: 20px;
+
+        font-size: 12px;
+    }
+
+    .divTextsSoundtrack button{
+        width: 200px;
+    }
+
+    .mathCubesDetails img{
+        margin-left: 5px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .mathCubesDetails p{
+        margin-right: 5px;
+        font-size: small;
+    }
+}
